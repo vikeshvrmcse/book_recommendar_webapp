@@ -10,7 +10,7 @@ export default function BookShows({ bookData }) {
 		<>
 			<div className='row m-0 p-0'>
 				{bookData.map((book, i) => (
-					<div className='col-sm-6 col-md-4 col-lg-3  g-4' key={i}>
+					<div className='col-sm-6 col-md-4 col-lg-3 p-4' key={i}>
 						<div
 							className='card'
 							>
@@ -20,7 +20,7 @@ export default function BookShows({ bookData }) {
 							<div className='card-body m-0 p-0 bg-primary-subtle'>
 								<img
 									className='img-fluid border-bottom border-white'
-									style={{ width: '100%', height: '50vh' }}
+									style={{ width: '100%', height: '20vh' }}
 									src={require(`../data/${book.imageLink}`)}
 									alt=''
 								/>

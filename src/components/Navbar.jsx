@@ -3,16 +3,17 @@
 import { faBookAtlas, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 export default function Navbar() {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg bg-primary-subtle'>
 				<div className='container-fluid'>
-					<a
+					<Link
 						className='navbar-brand p-3'
-						href='#'>
+						>
 						<FontAwesomeIcon className='text-white' icon={faBookAtlas}/>
-					</a>
+					</Link>
 					<button
 						className='navbar-toggler'
 						type='button'
@@ -24,59 +25,82 @@ export default function Navbar() {
 						<span className='navbar-toggler-icon'></span>
 					</button>
 					<div
-						className='collapse navbar-collapse'
+						className='collapse navbar-collapse z-50'
 						id='navbarSupportedContent'>
 						<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
 							<li className='nav-item'>
-								<a
+								<Link to={'/'}
 									className='nav-link active text-white backGroundHover'
 									aria-current='page'
-									href='#'>
+									>
 									Home
-								</a>
+								</Link>
 							</li>
 							<li className='nav-item'>
-								<a
+								<Link to={'/approaches'}
+									className='nav-link text-white backGroundHover'
+									aria-current='page'
+									>
+									Approches
+								</Link>
+							</li>
+							<li className='nav-item'>
+								<Link to={'/project-analysis'}
 									className='nav-link backGroundHover text-white'
-									href='#'>
-									About us
-								</a>
+									>
+									Project Analysis
+								</Link>
 							</li>
 							<li className='nav-item dropdown'>
-								<a
+								<Link
 									className='nav-link dropdown-toggle backGroundHover text-white'
-									href='#'
+									
 									role='button'
 									data-bs-toggle='dropdown'
 									aria-expanded='false'>
 									Book Store
-								</a>
+								</Link>
 								<ul className='dropdown-menu'>
 									<li>
-										<a
+										<Link to={'/science'}
 											className='dropdown-item'
-											href='#'>
+											>
 											Science
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a
+										<Link to={'/mathematics'}
 											className='dropdown-item'
-											href='#'>
-											Technology
-										</a>
+											>
+											Mathematics
+										</Link>
+									</li>
+									<li>
+										<Link to={'/technologies'}
+											className='dropdown-item'
+											>
+											Technologies
+										</Link>
 									</li>
 									<li>
 										<hr className='dropdown-divider' />
 									</li>
 									<li>
-										<a
+										<Link to={'/others'}
 											className='dropdown-item'
-											href='#'>
+											>
 											Other
-										</a>
+										</Link>
 									</li>
+
 								</ul>
+							</li>
+							<li className='nav-item'>
+								<Link to={'/about-us'}
+									className='nav-link backGroundHover text-white'
+									>
+									About Us
+								</Link>
 							</li>
 							
 						</ul>

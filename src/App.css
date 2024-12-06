@@ -9,6 +9,52 @@
   background-position: center;
   background-size: cover;
 }
+.BookBackMathematics{
+  width: 100%;
+  background-image: url(images/mathematics_image.png);
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.BookBackScience{
+  width: 100%;
+  background-image: url(images/science_image.png);
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.BookBackTechnology{
+  width: 100%;
+  background-image: url(images/technology_image.png);
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.divVideo{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.BookBackVideo{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.onBookBackVideo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
 .footer ul li{
   list-style: none;
   color: white;
@@ -20,14 +66,17 @@
 }
 .backGroundHover{
   background-color: rgba(20, 140, 253, 0);
-  transition: 0.4s ease-in;
+  transition: 0.4s ease-in-out;
   color:black;
   
 }
 .bookDescription{
   font-size: 13px;
   color: black;
-  transition: 0.8s ease;
+  transition: 0.8s ease-in-out;
+}
+.textColor{
+  color: #2bd1ff;
 }
 .bookDescription:hover{
   background-color: #016b88;
@@ -60,6 +109,14 @@
 .iconHover:hover{
   transform: scale(1.554);
   cursor: pointer;
+}
+.backGradient{
+  background-image: radial-gradient(#a2ebff, #016b88);
+  transition: 0.5s ease-in-out;
+}
+.backGradient:hover{
+  background-image: radial-gradient(#016b88, #99e9ff);
+  color: white;
 }
 .App-logo {
   height: 40vmin;

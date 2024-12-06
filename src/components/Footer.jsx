@@ -104,7 +104,7 @@ export default function Footer() {
 					</div>
 				</div>
 				<div
-					className='row backGroundColor m-0 p-3'
+					className='row backGroundColor m-0 p-3 border-top border-5 border-white'
 					style={{ fontSize: '13px' }}>
 					<div className='col d-flex justify-content-between align-items-center'>
 						<div className=''>
