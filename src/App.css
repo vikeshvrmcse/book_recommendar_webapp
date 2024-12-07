@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.headingDecoration::first-letter{
+  font-size: 70px;
+  color: green;
+}
 .BookBack{
   width: 100%;
   background-image: url(images/book_back.jpg);
@@ -67,12 +71,12 @@
 .backGroundHover{
   background-color: rgba(20, 140, 253, 0);
   transition: 0.4s ease-in-out;
-  color:black;
+  color:black !important;
   
 }
 .bookDescription{
   font-size: 13px;
-  color: black;
+  color: black ;
   transition: 0.8s ease-in-out;
 }
 .textColor{
@@ -85,7 +89,7 @@
 }
 .backGroundHover:hover{
   background-color: #016b88;
-  color: white;
+  color: white !important;
 }
 .footer ul li{
   color: #016b88;

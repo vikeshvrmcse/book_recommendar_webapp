@@ -12,7 +12,7 @@ export default function Navbar() {
 					<Link
 						className='navbar-brand p-3'
 						>
-						<FontAwesomeIcon className='text-white' icon={faBookAtlas}/>
+						<FontAwesomeIcon className='text-dark fs-5' icon={faBookAtlas}/>
 					</Link>
 					<button
 						className='navbar-toggler'
@@ -30,7 +30,7 @@ export default function Navbar() {
 						<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
 							<li className='nav-item'>
 								<Link to={'/'}
-									className='nav-link active text-white backGroundHover'
+									className='nav-link active backGroundHover'
 									aria-current='page'
 									>
 									Home
@@ -38,7 +38,7 @@ export default function Navbar() {
 							</li>
 							<li className='nav-item'>
 								<Link to={'/approaches'}
-									className='nav-link text-white backGroundHover'
+									className='nav-link backGroundHover'
 									aria-current='page'
 									>
 									Approches
@@ -46,14 +46,14 @@ export default function Navbar() {
 							</li>
 							<li className='nav-item'>
 								<Link to={'/project-analysis'}
-									className='nav-link backGroundHover text-white'
+									className='nav-link backGroundHover'
 									>
 									Project Analysis
 								</Link>
 							</li>
 							<li className='nav-item dropdown'>
 								<Link
-									className='nav-link dropdown-toggle backGroundHover text-white'
+									className='nav-link dropdown-toggle backGroundHover'
 									
 									role='button'
 									data-bs-toggle='dropdown'
@@ -97,7 +97,7 @@ export default function Navbar() {
 							</li>
 							<li className='nav-item'>
 								<Link to={'/about-us'}
-									className='nav-link backGroundHover text-white'
+									className='nav-link backGroundHover'
 									>
 									About Us
 								</Link>
