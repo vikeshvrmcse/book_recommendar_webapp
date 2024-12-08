@@ -18,7 +18,7 @@ export default function Footer() {
 		<>
 			<footer className='bg-primary-subtle mt-3'>
 				<div className='row m-4 p-5'>
-					<div className='footer col-3 text-primary'>
+					<div className='footer col-lg-3 col-sm-12 col-md-6 text-primary'>
 						<h4 className='m-0 p-1'>Team members</h4>
 						<ul>
 							<li>
@@ -39,7 +39,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className='col-3 footer'>
+					<div className='col-lg-3 col-sm-12 col-md-6 footer'>
 						<h4 className='text-primary m-0 p-1'>ML Features</h4>
 						<ul>
 							<li>
@@ -60,7 +60,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className='col-3 footer'>
+					<div className='col-lg-3 col-sm-12 col-md-6 footer'>
 						<h4 className='text-primary m-0 p-1'>Used Process</h4>
 						<ul>
 							<li>
@@ -81,7 +81,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className='col-3 footer'>
+					<div className='col-lg-3 col-sm-12 col-md-6 footer'>
 						<h4 className='text-primary m-0 p-1'>Contact Us</h4>
 						<ul>
 							<li>
