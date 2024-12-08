@@ -24,7 +24,7 @@ export default function SlidingFeedbackCarousel() {  const feedbacks = [
 
   // Slick slider settings
   const settings = {
-    dots: true,
+    
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -94,14 +94,14 @@ export default function SlidingFeedbackCarousel() {  const feedbacks = [
               </div>
               {/* Feedback Content */}
               <div
-                className="border border-2 rounded p-2 m-2 shadow"
+                className="border border-2 rounded p-3 m-3 shadow"
                 style={{
                   backgroundColor: "#e6f7ff",
                   maxWidth: "300px",
                 }}
               >
                 <p className="mb-2">"{user.feedback}"</p>
-                <h6 className="mb-1">- {user.name}</h6>
+                <h6 className="mb-2 p-2">- {user.name}</h6>
               </div>
             </div>
           ))}
