@@ -43,8 +43,8 @@ export default function AboutUs(props) {
                     className="col-12 col-sm-10 col-md-4 border border-2 backGradient fs-2 d-flex flex-row justify-content-center align-items-center mx-auto"
                     style={{
                       height: "25vh",
-                      minWidth: "200px",
-                      maxWidth: "350px",
+                      minWidth: "30%",
+                      maxWidth: "50%",
                     }}
                   >
                     <FontAwesomeIcon
@@ -57,7 +57,7 @@ export default function AboutUs(props) {
                   <div
                     className="aboutUsCircleAndDiv d-flex align-items-center d-sm-none"
                     style={{
-                      width: "3px",
+                      width: "20%",
                       height: "5px",
                       backgroundColor: "#016b88",
                       position: "relative",
@@ -108,7 +108,7 @@ export default function AboutUs(props) {
                   <div
                     className="aboutUsCircleAndDiv d-flex align-items-center d-sm-none"
                     style={{
-                      width: "3px",
+                      width: "30%",
                       height: "5px",
                       backgroundColor: "#016b88",
                       position: "relative",
@@ -131,8 +131,8 @@ export default function AboutUs(props) {
                     className="col-12 col-sm-10 col-md-4 border border-2 backGradient fs-2 d-flex flex-row justify-content-center align-items-center mx-auto"
                     style={{
                       height: "25vh",
-                      minWidth: "200px",
-                      maxWidth: "350px",
+                      minWidth: "30%",
+                      maxWidth: "50%",
                     }}
                   >
                     <FontAwesomeIcon
