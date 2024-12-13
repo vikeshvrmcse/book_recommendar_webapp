@@ -50,7 +50,7 @@ export default function BannerSection() {
 										Welcome in book recommendation...
 									</h5>
 								</div>
-								<div className='d-flex align-items-center mt-3'>
+								{/* <div className='d-flex align-items-center mt-3'>
 									<input
 										className='me-3 form-control '
 										placeholder='Enter here book name'
@@ -69,7 +69,7 @@ export default function BannerSection() {
 										className='btn border-3 fs-6 btn-outline-light'>
 										<FontAwesomeIcon icon={faSearch} />{' '}
 									</button>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

@@ -11,8 +11,8 @@ export default function Navbar() {
 				<div className='container-fluid'>
 					<Link
 						className='navbar-brand p-3'
-						>
-						<FontAwesomeIcon className='text-dark fs-5' icon={faBookAtlas}/>
+					>
+						<FontAwesomeIcon className='text-dark fs-5' icon={faBookAtlas} />
 					</Link>
 					<button
 						className='navbar-toggler'
@@ -32,29 +32,37 @@ export default function Navbar() {
 								<Link to={'/'}
 									className='nav-link active backGroundHover'
 									aria-current='page'
-									>
+								>
 									Home
 								</Link>
 							</li>
-							<li className='nav-item'>
+							{/* <li className='nav-item'>
 								<Link to={'/approaches'}
 									className='nav-link backGroundHover'
 									aria-current='page'
 									>
 									Approches
 								</Link>
-							</li>
-							<li className='nav-item'>
+							</li> */}
+							{/* <li className='nav-item'>
 								<Link to={'/project-analysis'}
 									className='nav-link backGroundHover'
 									>
 									Project Analysis
 								</Link>
+							</li> */}
+
+							<li className='nav-item'>
+								<Link to={'/others'}
+									className='nav-link backGroundHover'
+								>
+									Book Store
+								</Link>
 							</li>
-							<li className='nav-item dropdown'>
+							{/* <li className='nav-item dropdown'>
 								<Link
 									className='nav-link dropdown-toggle backGroundHover'
-									
+
 									role='button'
 									data-bs-toggle='dropdown'
 									aria-expanded='false'>
@@ -64,21 +72,21 @@ export default function Navbar() {
 									<li>
 										<Link to={'/science'}
 											className='dropdown-item'
-											>
+										>
 											Science
 										</Link>
 									</li>
 									<li>
 										<Link to={'/mathematics'}
 											className='dropdown-item'
-											>
+										>
 											Mathematics
 										</Link>
 									</li>
 									<li>
 										<Link to={'/technologies'}
 											className='dropdown-item'
-											>
+										>
 											Technologies
 										</Link>
 									</li>
@@ -88,23 +96,23 @@ export default function Navbar() {
 									<li>
 										<Link to={'/others'}
 											className='dropdown-item'
-											>
+										>
 											Other
 										</Link>
 									</li>
 
 								</ul>
-							</li>
+							</li> */}
 							<li className='nav-item'>
 								<Link to={'/about-us'}
 									className='nav-link backGroundHover'
-									>
+								>
 									About Us
 								</Link>
 							</li>
-							
+
 						</ul>
-						
+
 					</div>
 				</div>
 			</nav>
