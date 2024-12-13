@@ -8,18 +8,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function SlidingFeedbackCarousel() {  const feedbacks = [
-    { id: 1, name: "Satyendra Laundiyabaz", feedback: "Amazing platform!" },
-    { id: 2, name: "Boobs Smith", feedback: "User-friendly interface." },
-    { id: 3, name: "Sushant Burchanda", feedback: "Great customer support." },
-    { id: 4, name: "Ayush Landbaz", feedback: "Wonderful experience!" },
-    { id: 5, name: "Schin Bhai Chuchi Wale", feedback: "Highly recommend it!" },
-    { id: 6, name: "Saurabh Gandu", feedback: "Innovative features!" },
-    { id: 7, name: "Akash Bhosdka wala", feedback: "Exceeded my expectations." },
-    { id: 8, name: "Anubhav Burchatta", feedback: "Exceeded my expectations." },
-    { id: 9, name: "Vikash Jhandu", feedback: "Superb design." },
-    { id: 10, name: "Vikesh Hawashi", feedback: "Very reliable platform." },
-    { id: 11, name: "Ritik Tharaki", feedback: "Effortlessly convenient." },
-    { id: 12, name: "Abhishek Muthal, Both", feedback: "Effortlessly convenient." },
+    { id: 1, name: "Satyendra", feedback: "Amazing platform!" },
+    { id: 2, name: "Ansh", feedback: "User-friendly interface." },
+    { id: 3, name: "Sushant", feedback: "Great customer support." },
+    { id: 4, name: "Ayush", feedback: "Wonderful experience!" },
+    { id: 5, name: "Schin", feedback: "Highly recommend it!" },
+    { id: 6, name: "Saurabh", feedback: "Innovative features!" },
+    { id: 7, name: "Akash", feedback: "Exceeded my expectations." },
+    { id: 8, name: "Anubhav", feedback: "Exceeded my expectations." },
+    { id: 9, name: "Vikash", feedback: "Superb design." },
+    { id: 10, name: "Vikesh", feedback: "Very reliable platform." },
+    { id: 11, name: "Ritik", feedback: "Effortlessly convenient." },
+    { id: 12, name: "Abhishek", feedback: "Effortlessly convenient." },
   ];
 
   // Slick slider settings
