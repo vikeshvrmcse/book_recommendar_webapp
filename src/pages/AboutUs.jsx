@@ -8,17 +8,23 @@ import {
   faDiceFour,
   faDiceFive,
   faFaceDizzy,
+  faArrowRight,
+  faLeftRight,
+  faCarrot,
+  faFaceMehBlank,
+  faPen,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faLinkedin, faSafari, faScreenpal } from "@fortawesome/free-brands-svg-icons";
 
 export default function AboutUs(props) {
   // Array of steps for dynamic rendering
   const steps = [
-    { name: "Step 1", icon: faDiceOne },
-    { name: "Step 2", icon: faDiceTwo },
-    { name: "Step 3", icon: faDiceThree },
-    { name: "Step 4", icon: faDiceFour },
-    { name: "Step 5", icon: faDiceFive },
+    { name: "Vikesh Kumar Verma", sem: '5th Semester', branch: "CSIT", icon: faCarrot },
+    { name: "Vansh Pal", sem: '5th Semester', branch: "CSIT", icon: faCarrot },
+    { name: "Vansh Bhattnagar ", sem: '5th Semester', branch: "CSIT", icon: faCarrot },
+    { name: "Nandita Saxena", sem: '5th Semester', branch: "CSIT", icon: faCarrot }
   ];
 
   return (
@@ -31,9 +37,8 @@ export default function AboutUs(props) {
         <div className="row align-items-center m-0 p-0">
           {steps.map((step, index) => (
             <div
-              className={`row justify-content-${
-                index % 2 === 0 ? "start" : "end"
-              } align-items-center m-3`}
+              className={`row justify-content-${index % 2 === 0 ? "start" : "end"
+                } align-items-center m-3`}
               key={index}
             >
               {index % 2 === 0 ? (
@@ -47,11 +52,27 @@ export default function AboutUs(props) {
                       maxWidth: "50%",
                     }}
                   >
-                    <FontAwesomeIcon
-                      className="me-1 fa-spin"
-                      icon={step.icon}
-                    />
-                    {step.name}
+
+<div className="d-flex flex-column fs-5">
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faPen}
+                      />Name: {step.name}</span>
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faSafari}
+                      />Semester: {step.sem}</span>
+
+
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faScreenpal}
+                      />Department: {step.branch}</span>
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faLinkedin}
+                      />Linkdin: {step.sem}</span>
+                    </div>
                   </div>
                   {/* Divider */}
                   <div
@@ -86,7 +107,7 @@ export default function AboutUs(props) {
                       backgroundColor: "#016b88",
                     }}
                   >
-                    <FontAwesomeIcon icon={faFaceDizzy} />
+                    <FontAwesomeIcon icon={faUser} />
                   </div>
                 </>
               ) : (
@@ -102,7 +123,7 @@ export default function AboutUs(props) {
                       backgroundColor: "#016b88",
                     }}
                   >
-                    <FontAwesomeIcon icon={faFaceDizzy} />
+                    <FontAwesomeIcon icon={faUser} />
                   </div>
                   {/* Divider */}
                   <div
@@ -135,11 +156,27 @@ export default function AboutUs(props) {
                       maxWidth: "50%",
                     }}
                   >
-                    <FontAwesomeIcon
-                      className="me-1 fa-spin"
-                      icon={step.icon}
-                    />
-                    {step.name}
+
+                    <div className="d-flex flex-column fs-5">
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faPen}
+                      />Name: {step.name}</span>
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faSafari}
+                      />Semester: {step.sem}</span>
+
+
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faScreenpal}
+                      />Department: {step.branch}</span>
+                      <span className=" text-white"><FontAwesomeIcon
+                        className="me-2"
+                        icon={faLinkedin}
+                      />Linkdin: {step.sem}</span>
+                    </div>
                   </div>
                 </>
               )}

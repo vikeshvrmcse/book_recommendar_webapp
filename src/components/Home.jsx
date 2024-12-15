@@ -1,8 +1,6 @@
 /** @format */
-
 import React from "react";
 import BookShows from './BookShows';
-import { bookData } from '../data/BookData';
 import BannerSection from './BannerSection'
 import { 
   faCircleArrowDown, 
@@ -28,11 +26,13 @@ export default function Home() {
     alert(`You clicked on: ${step.content}`);
   };
 
+
+
   return (
 	<>
 	
 	<BannerSection val={'data'} />
-	<BookShows bookData={bookData} />
+	<BookShows />
   <div className="container-fluid">
   <h1 className="m-5 text-center fs-1 p-5 headingDecoration">
     Team Messages

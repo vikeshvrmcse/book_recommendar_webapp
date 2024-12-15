@@ -15,6 +15,9 @@ export default function BannerSection() {
 				<div className='row'>
 					<div className='col-lg-12 m-0 p-0 '>
 						<div className='BookBack d-flex justify-content-center  align-items-center '>
+						
+								
+								
 							<div className='bg-primary-subtle rounded shadow-lg m-3 p-3'>
 								{
 									(template = enable ? (
@@ -42,14 +45,12 @@ export default function BannerSection() {
 											</div>
 										</>
 									) : (
-										<span></span>
+										''
 									))
 								}
-								<div className=''>
-									<h5 className='input-group fs-2  border-bottom border-5 p-3 border-white'>
-										Welcome in book recommendation...
-									</h5>
-								</div>
+								<h1 className='border-bottom shadow-lg border-5 p-3 border-white text-bg-secondary' style={{fontSize:'70px'}}>
+										Welcome to ReadersPedia
+									</h1>
 								{/* <div className='d-flex align-items-center mt-3'>
 									<input
 										className='me-3 form-control '

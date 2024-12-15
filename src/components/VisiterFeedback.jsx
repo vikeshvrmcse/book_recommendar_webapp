@@ -22,7 +22,7 @@ export default function SlidingFeedbackCarousel() {  const feedbacks = [
     { id: 12, name: "Abhishek", feedback: "Effortlessly convenient." },
   ];
 
-  // Slick slider settings
+  
   const settings = {
     
     infinite: true,
@@ -34,19 +34,19 @@ export default function SlidingFeedbackCarousel() {  const feedbacks = [
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 1024, // For devices <= 1024px width
+        breakpoint: 1024, 
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 768, // For devices <= 768px width
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480, // For devices <= 480px width
+        breakpoint: 480, 
         settings: {
           slidesToShow: 1,
         },
